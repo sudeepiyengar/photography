@@ -1,0 +1,144 @@
+
+body {
+  background-image: url("bg_gray.jpg");
+  /*background-image: url("unsplash.jpg");
+  /*background: #4d4d4d;
+  /*width: 100%;
+  height: 100%;
+  margin: auto;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;*/
+  
+  background-position:center;
+  background-attachment:fixed;
+  -webkit-background-size: cover;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.container {
+  width: 480px;
+  margin: 100px auto;
+  background: white;
+  text-align: centre;
+  color: black;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+img {
+	width: 480px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*opacity: 0.5;*/
+	padding: 10px;
+}
+
+/*img:hover {
+	opacity: 1.0;
+}*/
+
+p, li {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+#section {
+	border: 1px solid;
+    padding: 10px;
+	box-shadow: 10px 10px black;
+	margin: 20px 0 20px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section:nth-child(odd) {
+  background: white;
+  color: black;
+}
+
+section:nth-child(even) {
+  background: black;
+  color: white;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+}
+
+a {
+	color: white;
+	margin: 20px 0 20px 0;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ul {
+	padding: 10px;
+}
+
+#contact img, #section a {
+	width: 40px;
+	opacity: 0.5;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact img:hover {
+	opacity: 1.0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
